@@ -10,18 +10,25 @@
 #menu-h{
     background-color: black;
 }
-#menu-h ul{
+#menu-h ul {
     max-width: 800px;
     list-style: none;
     padding: 0;
 }
+
 #menu-h ul li{
     display: inline;
+}
+img{
+   position: relative;
+   left: 4px;
+   top: 8px;
 }
 
 #menu-h ul li a{
     color: #fff;
     padding: 20px;
+    
     display: inline-block;
     text-decoration: none;
     transition: background.4s;
@@ -30,6 +37,6 @@
     background-color: darkcyan;
 }
 #menu-h ul li:last-child a{
-float: right;
+text-align: left;
 background-color: blueviolet;
 }
