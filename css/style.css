@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'opensans',sans-serif;
 }
+#menu-h{
+    background-color: black;
+}
 #menu-h ul{
     max-width: 800px;
     list-style: none;
